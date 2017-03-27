@@ -12,6 +12,6 @@ Solutions:
 2. Postnord API(Sweden) and Kuaidi100 API(China)
 3. User can easily track the new orders by add receiver's name
 
-]]></content>
+]></content>
   <tabTrigger>readme</tabTrigger>
 </snippet>

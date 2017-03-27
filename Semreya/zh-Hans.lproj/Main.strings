@@ -1,0 +1,66 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8HO-JP-XOT"; */
+"8HO-JP-XOT.text" = "Label";
+
+/* Class = "UITableViewSection"; headerTitle = "显示设置"; ObjectID = "AC3-Ml-xe8"; */
+"AC3-Ml-xe8.headerTitle" = "显示设置";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Er5-xP-65q"; */
+"Er5-xP-65q.text" = "Label";
+
+/* Class = "UILabel"; text = "收件人"; ObjectID = "G5n-XT-15R"; */
+"G5n-XT-15R.text" = "收件人";
+
+/* Class = "UITabBarItem"; title = "设置"; ObjectID = "MbK-Cr-7E1"; */
+"MbK-Cr-7E1.title" = "设置";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RU7-MN-JZP"; */
+"RU7-MN-JZP.text" = "Label";
+
+/* Class = "UITableViewSection"; headerTitle = "追踪区域"; ObjectID = "WfN-90-KSG"; */
+"WfN-90-KSG.headerTitle" = "追踪区域";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XG2-1R-Qu2"; */
+"XG2-1R-Qu2.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "收件人"; ObjectID = "Xyf-r6-YVw"; */
+"Xyf-r6-YVw.title" = "收件人";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "buM-sD-lzy"; */
+"buM-sD-lzy.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gFI-gF-kWB"; */
+"gFI-gF-kWB.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jKO-bA-aUA"; */
+"jKO-bA-aUA.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kG0-Kv-xWV"; */
+"kG0-Kv-xWV.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "编辑"; ObjectID = "mBQ-2O-huk"; */
+"mBQ-2O-huk.title" = "编辑";
+
+/* Class = "UILabel"; text = "瑞典"; ObjectID = "oS9-Jc-lE9"; */
+"oS9-Jc-lE9.text" = "瑞典";
+
+/* Class = "UINavigationItem"; title = "快递"; ObjectID = "p5T-AJ-23f"; */
+"p5T-AJ-23f.title" = "快递";
+
+/* Class = "UITableViewSection"; headerTitle = "收件人管理"; ObjectID = "sl3-cb-ZvZ"; */
+"sl3-cb-ZvZ.headerTitle" = "收件人管理";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "viX-WA-cLO"; */
+"viX-WA-cLO.text" = "Label";
+
+/* Class = "UILabel"; text = "已收货"; ObjectID = "wyM-W3-QMu"; */
+"wyM-W3-QMu.text" = "已收货";
+
+/* Class = "UITabBarItem"; title = "我的快递"; ObjectID = "xNg-5b-DOR"; */
+"xNg-5b-DOR.title" = "我的快递";
+
+/* Class = "UILabel"; text = "中国"; ObjectID = "y9C-9X-3TR"; */
+"y9C-9X-3TR.text" = "中国";
+
+/* Class = "UINavigationItem"; title = "设置"; ObjectID = "yCJ-BV-Ese"; */
+"yCJ-BV-Ese.title" = "设置";

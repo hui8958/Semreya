@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5279FCC1E26B22000DB8B62 /* ParcelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5279FCB1E26B22000DB8B62 /* ParcelTableViewCell.swift */; };
+		A5279FCE1E26B38200DB8B62 /* ParcelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5279FCD1E26B38200DB8B62 /* ParcelTableViewController.swift */; };
+		A5279FD01E26B3F600DB8B62 /* Parcel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5279FCF1E26B3F600DB8B62 /* Parcel.swift */; };
+		A5279FD21E26B53500DB8B62 /* TrackingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5279FD11E26B53500DB8B62 /* TrackingInfo.swift */; };
+		A5295F391E28385800CD0852 /* ParcelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5295F381E28385800CD0852 /* ParcelViewController.swift */; };
+		A53AAD051E439AA5005EB53F /* ParcelTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53AAD041E439AA5005EB53F /* ParcelTabBarController.swift */; };
+		A547EBCD1E29B91C004F0920 /* Ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = A547EBCC1E29B91C004F0920 /* Ding.wav */; };
+		A597F3651E26AB4D004E38DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597F3641E26AB4D004E38DF /* AppDelegate.swift */; };
+		A597F36C1E26AB4D004E38DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A597F36A1E26AB4D004E38DF /* Main.storyboard */; };
+		A597F36E1E26AB4D004E38DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A597F36D1E26AB4D004E38DF /* Assets.xcassets */; };
+		A597F3711E26AB4D004E38DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A597F36F1E26AB4D004E38DF /* LaunchScreen.storyboard */; };
+		A597F37C1E26AB4E004E38DF /* SemreyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A597F37B1E26AB4E004E38DF /* SemreyaTests.swift */; };
+		A5EDF89E1E2E3F420073EF01 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EDF89D1E2E3F420073EF01 /* Setting.swift */; };
+		A5F0D9FF1E2C2C0F008031CC /* NamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F0D9FE1E2C2C0F008031CC /* NamesTableViewController.swift */; };
+		A5F0DA011E2C3F4C008031CC /* PersonsSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F0DA001E2C3F4C008031CC /* PersonsSettingTableViewController.swift */; };
+		A5F0DA031E2C416C008031CC /* GlobelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F0DA021E2C416C008031CC /* GlobelData.swift */; };
+		A5F0DA051E2C4E5A008031CC /* PersonsSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F0DA041E2C4E5A008031CC /* PersonsSettingTableViewCell.swift */; };
+		A5F920351E29DB43007D436D /* ParcelDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F920341E29DB42007D436D /* ParcelDetailTableViewCell.swift */; };
+		A5FC92801E2BDBB10071662C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FC927F1E2BDBB10071662C /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A597F3781E26AB4E004E38DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A597F3591E26AB4D004E38DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A597F3601E26AB4D004E38DF;
+			remoteInfo = Semreya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5279FCB1E26B22000DB8B62 /* ParcelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParcelTableViewCell.swift; path = ../ParcelTableViewCell.swift; sourceTree = "<group>"; };
+		A5279FCD1E26B38200DB8B62 /* ParcelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParcelTableViewController.swift; sourceTree = "<group>"; };
+		A5279FCF1E26B3F600DB8B62 /* Parcel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parcel.swift; sourceTree = "<group>"; };
+		A5279FD11E26B53500DB8B62 /* TrackingInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingInfo.swift; sourceTree = "<group>"; };
+		A5295F381E28385800CD0852 /* ParcelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParcelViewController.swift; sourceTree = "<group>"; };
+		A53AAD041E439AA5005EB53F /* ParcelTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParcelTabBarController.swift; sourceTree = "<group>"; };
+		A547EBCC1E29B91C004F0920 /* Ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ding.wav; sourceTree = "<group>"; };
+		A5659F631E48BF7C0091ECBC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		A5659F641E48BF7C0091ECBC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A597F3611E26AB4D004E38DF /* Semreya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semreya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A597F3641E26AB4D004E38DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A597F36B1E26AB4D004E38DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A597F36D1E26AB4D004E38DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A597F3701E26AB4D004E38DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A597F3721E26AB4D004E38DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A597F3771E26AB4E004E38DF /* SemreyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SemreyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A597F37B1E26AB4E004E38DF /* SemreyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemreyaTests.swift; sourceTree = "<group>"; };
+		A597F37D1E26AB4E004E38DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5EDF89D1E2E3F420073EF01 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		A5F0D9FE1E2C2C0F008031CC /* NamesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamesTableViewController.swift; sourceTree = "<group>"; };
+		A5F0DA001E2C3F4C008031CC /* PersonsSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonsSettingTableViewController.swift; sourceTree = "<group>"; };
+		A5F0DA021E2C416C008031CC /* GlobelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobelData.swift; sourceTree = "<group>"; };
+		A5F0DA041E2C4E5A008031CC /* PersonsSettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonsSettingTableViewCell.swift; sourceTree = "<group>"; };
+		A5F920341E29DB42007D436D /* ParcelDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParcelDetailTableViewCell.swift; sourceTree = "<group>"; };
+		A5FC927F1E2BDBB10071662C /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A597F35E1E26AB4D004E38DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A597F3741E26AB4E004E38DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5279FD31E26CCC000DB8B62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5FC927F1E2BDBB10071662C /* Person.swift */,
+				A5279FCF1E26B3F600DB8B62 /* Parcel.swift */,
+				A5279FD11E26B53500DB8B62 /* TrackingInfo.swift */,
+				A5F0DA021E2C416C008031CC /* GlobelData.swift */,
+				A5EDF89D1E2E3F420073EF01 /* Setting.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5279FD41E26CCD500DB8B62 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5F920341E29DB42007D436D /* ParcelDetailTableViewCell.swift */,
+				A5279FCD1E26B38200DB8B62 /* ParcelTableViewController.swift */,
+				A5279FCB1E26B22000DB8B62 /* ParcelTableViewCell.swift */,
+				A5295F381E28385800CD0852 /* ParcelViewController.swift */,
+				A5F0D9FE1E2C2C0F008031CC /* NamesTableViewController.swift */,
+				A5F0DA001E2C3F4C008031CC /* PersonsSettingTableViewController.swift */,
+				A5F0DA041E2C4E5A008031CC /* PersonsSettingTableViewCell.swift */,
+				A53AAD041E439AA5005EB53F /* ParcelTabBarController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A597F3581E26AB4D004E38DF = {
+			isa = PBXGroup;
+			children = (
+				A547EBCC1E29B91C004F0920 /* Ding.wav */,
+				A597F3631E26AB4D004E38DF /* Semreya */,
+				A597F37A1E26AB4E004E38DF /* SemreyaTests */,
+				A597F3621E26AB4D004E38DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A597F3621E26AB4D004E38DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A597F3611E26AB4D004E38DF /* Semreya.app */,
+				A597F3771E26AB4E004E38DF /* SemreyaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A597F3631E26AB4D004E38DF /* Semreya */ = {
+			isa = PBXGroup;
+			children = (
+				A5279FD41E26CCD500DB8B62 /* Controller */,
+				A5279FD31E26CCC000DB8B62 /* Model */,
+				A597F3641E26AB4D004E38DF /* AppDelegate.swift */,
+				A597F36A1E26AB4D004E38DF /* Main.storyboard */,
+				A597F36D1E26AB4D004E38DF /* Assets.xcassets */,
+				A597F36F1E26AB4D004E38DF /* LaunchScreen.storyboard */,
+				A597F3721E26AB4D004E38DF /* Info.plist */,
+			);
+			path = Semreya;
+			sourceTree = "<group>";
+		};
+		A597F37A1E26AB4E004E38DF /* SemreyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A597F37B1E26AB4E004E38DF /* SemreyaTests.swift */,
+				A597F37D1E26AB4E004E38DF /* Info.plist */,
+			);
+			path = SemreyaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A597F3601E26AB4D004E38DF /* Semreya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A597F3801E26AB4E004E38DF /* Build configuration list for PBXNativeTarget "Semreya" */;
+			buildPhases = (
+				A597F35D1E26AB4D004E38DF /* Sources */,
+				A597F35E1E26AB4D004E38DF /* Frameworks */,
+				A597F35F1E26AB4D004E38DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Semreya;
+			productName = Semreya;
+			productReference = A597F3611E26AB4D004E38DF /* Semreya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A597F3761E26AB4E004E38DF /* SemreyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A597F3831E26AB4E004E38DF /* Build configuration list for PBXNativeTarget "SemreyaTests" */;
+			buildPhases = (
+				A597F3731E26AB4E004E38DF /* Sources */,
+				A597F3741E26AB4E004E38DF /* Frameworks */,
+				A597F3751E26AB4E004E38DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A597F3791E26AB4E004E38DF /* PBXTargetDependency */,
+			);
+			name = SemreyaTests;
+			productName = SemreyaTests;
+			productReference = A597F3771E26AB4E004E38DF /* SemreyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A597F3591E26AB4D004E38DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Hui;
+				TargetAttributes = {
+					A597F3601E26AB4D004E38DF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 52W37F9T4W;
+						ProvisioningStyle = Automatic;
+					};
+					A597F3761E26AB4E004E38DF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 52W37F9T4W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A597F3601E26AB4D004E38DF;
+					};
+				};
+			};
+			buildConfigurationList = A597F35C1E26AB4D004E38DF /* Build configuration list for PBXProject "Semreya" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A597F3581E26AB4D004E38DF;
+			productRefGroup = A597F3621E26AB4D004E38DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A597F3601E26AB4D004E38DF /* Semreya */,
+				A597F3761E26AB4E004E38DF /* SemreyaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A597F35F1E26AB4D004E38DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A547EBCD1E29B91C004F0920 /* Ding.wav in Resources */,
+				A597F3711E26AB4D004E38DF /* LaunchScreen.storyboard in Resources */,
+				A597F36E1E26AB4D004E38DF /* Assets.xcassets in Resources */,
+				A597F36C1E26AB4D004E38DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A597F3751E26AB4E004E38DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A597F35D1E26AB4D004E38DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A597F3651E26AB4D004E38DF /* AppDelegate.swift in Sources */,
+				A5F0DA051E2C4E5A008031CC /* PersonsSettingTableViewCell.swift in Sources */,
+				A5279FD21E26B53500DB8B62 /* TrackingInfo.swift in Sources */,
+				A5EDF89E1E2E3F420073EF01 /* Setting.swift in Sources */,
+				A5295F391E28385800CD0852 /* ParcelViewController.swift in Sources */,
+				A5F0DA011E2C3F4C008031CC /* PersonsSettingTableViewController.swift in Sources */,
+				A5F0D9FF1E2C2C0F008031CC /* NamesTableViewController.swift in Sources */,
+				A5F0DA031E2C416C008031CC /* GlobelData.swift in Sources */,
+				A53AAD051E439AA5005EB53F /* ParcelTabBarController.swift in Sources */,
+				A5279FCE1E26B38200DB8B62 /* ParcelTableViewController.swift in Sources */,
+				A5279FCC1E26B22000DB8B62 /* ParcelTableViewCell.swift in Sources */,
+				A5FC92801E2BDBB10071662C /* Person.swift in Sources */,
+				A5279FD01E26B3F600DB8B62 /* Parcel.swift in Sources */,
+				A5F920351E29DB43007D436D /* ParcelDetailTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A597F3731E26AB4E004E38DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A597F37C1E26AB4E004E38DF /* SemreyaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A597F3791E26AB4E004E38DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A597F3601E26AB4D004E38DF /* Semreya */;
+			targetProxy = A597F3781E26AB4E004E38DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A597F36A1E26AB4D004E38DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A597F36B1E26AB4D004E38DF /* Base */,
+				A5659F631E48BF7C0091ECBC /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A597F36F1E26AB4D004E38DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A597F3701E26AB4D004E38DF /* Base */,
+				A5659F641E48BF7C0091ECBC /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A597F37E1E26AB4E004E38DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A597F37F1E26AB4E004E38DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A597F3811E26AB4E004E38DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52W37F9T4W;
+				INFOPLIST_FILE = Semreya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.chalmers.ait.Semreya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A597F3821E26AB4E004E38DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52W37F9T4W;
+				INFOPLIST_FILE = Semreya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.chalmers.ait.Semreya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A597F3841E26AB4E004E38DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 52W37F9T4W;
+				INFOPLIST_FILE = SemreyaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.chalmers.ait.SemreyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semreya.app/Semreya";
+			};
+			name = Debug;
+		};
+		A597F3851E26AB4E004E38DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 52W37F9T4W;
+				INFOPLIST_FILE = SemreyaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.chalmers.ait.SemreyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Semreya.app/Semreya";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A597F35C1E26AB4D004E38DF /* Build configuration list for PBXProject "Semreya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A597F37E1E26AB4E004E38DF /* Debug */,
+				A597F37F1E26AB4E004E38DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A597F3801E26AB4E004E38DF /* Build configuration list for PBXNativeTarget "Semreya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A597F3811E26AB4E004E38DF /* Debug */,
+				A597F3821E26AB4E004E38DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A597F3831E26AB4E004E38DF /* Build configuration list for PBXNativeTarget "SemreyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A597F3841E26AB4E004E38DF /* Debug */,
+				A597F3851E26AB4E004E38DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A597F3591E26AB4D004E38DF /* Project object */;
+}
